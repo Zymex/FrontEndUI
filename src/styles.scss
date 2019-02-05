@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+@import 'https://fonts.googleapis.com/css?family=KoHo|Quicksand';
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    font-family: 'Quicksand', sans-serif; size: 7px;
+}
+h6{
+    font-family: 'KoHo', sans-serif;
+    text-align: center;
+}
+* {
+    border-radius: 0 !important;
+  }
+input{
+    border: 0px;
+}
+.form-control, {
+    border: dotted, 3px;
+  
+}
+.input-group-text{
+    border: dotted, 3px;
+  
+}
