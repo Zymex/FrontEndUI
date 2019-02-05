@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { DataEntryComponent } from './data-entry/data-entry.component';
 import { ChartsComponent } from './charts/charts.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { TabledataComponent } from './charts/tabledata/tabledata.component';
 
 @NgModule({
    declarations: [
       AppComponent,
       DataEntryComponent,
-      ChartsComponent
+      ChartsComponent,
+      TabledataComponent
    ],
    imports: [
       BrowserModule,
